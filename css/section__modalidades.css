@@ -1,0 +1,71 @@
+#btprime__modalidades > h2 {
+  margin-top: 4%;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+  font-size: 60px;
+  padding: 2%;
+}
+
+.btprime__modalidades__img img {
+  width: 85%;
+}
+
+.btprime__modalidades__img {
+  max-width: 90%;
+  margin: 4% auto 0 auto;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  gap: 7%;
+}
+
+.btprime__modalidades__img__div h3 {
+  text-align: center;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+}
+
+.btprime__modalidades__img__div p {
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/*Responsividade da página até 414px*/
+
+@media (max-width: 414px) {
+  #btprime__modalidades > h2 {
+    font-size: 40px;
+  }
+  .btprime__modalidades__img {
+    display: block;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 768px) {
+  .btprime__modalidades__img {
+    display: block;
+  }
+
+  #btprime__modalidades > h2 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 530px) and (max-width: 768px) {
+  .btprime__modalidades__img {
+    display: grid;
+    grid-template-columns: 45% 45%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .btprime__modalidades__img {
+    display: block;
+  }
+  .btprime__modalidades__img {
+    display: grid;
+    grid-template-columns: 45% 45%;
+  }
+}
